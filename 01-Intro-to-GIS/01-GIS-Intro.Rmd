@@ -1,8 +1,0 @@
-
-# (PART) Part I: A Canadian Introduction to GIS {-}
-
-TODO: write intro to part 1
-
-# Geographic Information
-
-TODO: write this section
