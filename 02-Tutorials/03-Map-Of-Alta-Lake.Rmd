@@ -1,0 +1,19 @@
+
+# A Map of Alta Lake {#tutorial-rasterstyle}
+
+## Purpose
+
+* Demonstrate how to style **raster layers** using _single-band grayscale_, _single-band pseudocolor_, and _hillshade_ styles.
+* Practice using the _Print Composer_ to export the map from QGIS.
+* Learn how to add a _Legend_ using the _Print Composer_
+
+## Tutorial
+
+* Add aerial photo of Whistler
+* Add raster of Alta Lake bathymetry
+* Manipulate the grayscale style
+* Manipulate the pseudocolor style
+* Add raster of Whistler DEM, style using hillshade
+* Add print composer with legend
+
+TODO: write this section

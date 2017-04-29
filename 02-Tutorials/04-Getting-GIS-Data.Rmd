@@ -1,0 +1,11 @@
+
+# Downloading GIS Data {#tutorial-getdata}
+
+So far we have used data only from the tutorials folder, which I have nicely manicured so that you can focus on learning specific skills. In the real world, you will want to make a map of your own sample site with your own data. In a later module we will learn how to import your data into QGIS, but you will still need "basemap" data to give spatial context to your data. 
+
+## Tutorial
+
+* Suggest a number of online sources for high-quality Canadian geographic data
+* Demonstrate how to obtain basemap data from the Natural Resources Canada Geospatial Data Extractor
+
+TODO: write this tutorial

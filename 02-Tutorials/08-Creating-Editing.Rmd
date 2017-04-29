@@ -1,0 +1,20 @@
+
+# Creating and Editing Features {#tutorial-createedit}
+
+## Purpose
+
+* Learn how to create and edit vector layers
+* Learn how to create and modify features
+* Practice using the _Print Composer_ to export maps from QGIS
+
+## Tutorial
+
+* Import Long Lake outline, depths
+* Style layers (label depths)
+* Create layer
+* Explain Editing mode
+* Create feature/delete feature
+* Edit feature
+* Style Layers
+
+TODO: write this section

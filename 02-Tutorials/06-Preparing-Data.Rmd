@@ -1,0 +1,19 @@
+
+# Preparing GIS Data {#tutorial-dataprep}
+
+## Purpose
+
+* Demonstrate how to create a CSV in Excel and import it into QGIS
+* Demonstrate how to create a KML file in Google Earth and import it into QGIS
+* Describe additional data formats that exist and how to import them to QGIS
+* Demonstrate how to convert vector layers from one format to another
+
+## Tutorial
+
+* Create points csv
+* Create cores KML
+* Describe GPX format
+* Add layers to QGIS
+* Save layers from QGIS
+
+TODO: write this section

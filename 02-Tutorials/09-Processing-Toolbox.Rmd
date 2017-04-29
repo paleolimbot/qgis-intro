@@ -1,0 +1,15 @@
+
+# The Processing Toolbox {#tutorial-processing}
+
+## Purpose
+
+* Learn how to use the _Processing Toolbox_ to maniuplate vector and raster data.
+
+## Tutorial
+
+* Open Minas Passage Raster, coastlines vector, profile vector
+* Create profile using the SAGA profile tool
+* Style Layers, use _Print Composer_ to export
+* Optional exercise: contour Long Lake data using RST
+
+TODO: write this section

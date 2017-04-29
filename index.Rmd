@@ -1,0 +1,64 @@
+--- 
+title: "A Canadian Introduction to GIS using QGIS"
+author: "Dewey W. Dunnington"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+bibliography: book.bib
+biblio-style: apalike
+link-citations: yes
+github-repo: paleolimbot/qgis-intro
+description: "This course uses QGIS and Canadian examples to give a brief introduction to geographic information systems. QGIS is an open-source GIS platform available for all major platforms, including Windows, Linux, and Mac OSX."
+---
+
+# Introduction {-}
+
+TODO: write this section
+
+## Prerequisites
+
+This course uses [QGIS](http://www.qgis.org) and Canadian examples to give a brief introduction to geographic information systems. QGIS is an open-source GIS platform available for all major platforms, including Windows, Linux, and Mac OSX. This course was written using QGIS 2.18.2 for Mac OSX, however it is expected that this tutorial is valid from QGIS 2.14 up to future versions of QGIS. To use this course, you will need to install QGIS and download the course data.
+
+### Installing QGIS {#pre-qgis-install}
+
+QGIS downloads are available from the QGIS download page (http://qgis.org/download). Instructions on the website are fairly complete, but the process is slightly different based on platform.
+
+#### Windows
+
+TODO: write this section
+
+#### MacOSX
+
+TODO: write this section
+
+#### Linux
+
+TODO: write this section
+
+### Course Data {#pre-course-data}
+
+This course uses a series of minimal examples to illustrate common tasks in QGIS. The data for these examples is available for download at the tutorial website (http://qgis-intro.paleolimbot.github.io/qgis-intro.zip). You should extract this ZIP file to location you can find easily before starting this course (I use the Desktop; you can always move the course folder somewhere else later).
+
+
+## Philosophy
+
+There are many excellent reference guides to QGIS, and much high-quality coures material available for teaching GIS and learning QGIS software. This course is designed to be a lightweight introduction to QGIS software to build a basic proficiency in GIS and GIS software, using Canadian examples and data to illustrate key concepts. This material is designed for a two-day short-course format.
+
+## Structure
+
+The course is divided into three parts. The first is a textual introduction to GIS and QGIS, the second is a set of tutorials that will walk you through the creation of several common types of maps. Finally, there is a quick reference section that provides short tutorials for common tasks (e.g., adding a vector layer).
+
+## Conventions
+
+Throughout this course we will use **bold** text to refer to terms that are in the glossary (like **GIS** or **vector layer**), _italic text_ to refer to QGIS menu options or window titles (such as the _Style_ tab or _Layers Panel_), "quotations" to refer to layer names (such as "buildings_poly"), and `preformatted text` to refer to filenames (such as `02 Map of Canada/Canada-WGS84.shp`).
+
+## Acknowledgments
+
+TODO: write this section
+
+* Course participants
+* EES, esp. Lynn Graves and Ian Spooner
+* Lita, Jon, & Karissa for TAing the class
+
+This course material was written using the [bookdown](https://bookdown.org/) package inside [RStudio](https://www.rstudio.com/). Pages were generated using [pandoc](http://pandoc.org/) and [gitbook](https://www.gitbook.com/). The source is [available on github](http://github.com/paleolimbot/).
