@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>A Canadian Introduction to GIS using QGIS</title>
+  <meta name="description" content="This course uses QGIS and Canadian examples to give a brief introduction to geographic information systems. QGIS is an open-source GIS platform available for all major platforms, including Windows, Linux, and Mac OSX.">
+  <meta name="generator" content="bookdown 0.3.18 and GitBook 2.6.7">
+
+  <meta property="og:title" content="A Canadian Introduction to GIS using QGIS" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="This course uses QGIS and Canadian examples to give a brief introduction to geographic information systems. QGIS is an open-source GIS platform available for all major platforms, including Windows, Linux, and Mac OSX." />
+  <meta name="github-repo" content="paleolimbot/qgis-intro" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="A Canadian Introduction to GIS using QGIS" />
+  
+  <meta name="twitter:description" content="This course uses QGIS and Canadian examples to give a brief introduction to geographic information systems. QGIS is an open-source GIS platform available for all major platforms, including Windows, Linux, and Mac OSX." />
+  
+
+<meta name="author" content="Dewey W. Dunnington">
+
+
+<meta name="date" content="2017-04-29">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  
+  
+<link rel="prev" href="geographic-information.html">
+<link rel="next" href="where-to-get-gis-data.html">
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">A Canadian Intro to QGIS</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Introduction</a><ul>
+<li class="chapter" data-level="0.1" data-path="index.html"><a href="index.html#prerequisites"><i class="fa fa-check"></i><b>0.1</b> Prerequisites</a><ul>
+<li class="chapter" data-level="0.1.1" data-path="index.html"><a href="index.html#pre-qgis-install"><i class="fa fa-check"></i><b>0.1.1</b> Installing QGIS</a></li>
+<li class="chapter" data-level="0.1.2" data-path="index.html"><a href="index.html#pre-course-data"><i class="fa fa-check"></i><b>0.1.2</b> Course Data</a></li>
+</ul></li>
+<li class="chapter" data-level="0.2" data-path="index.html"><a href="index.html#philosophy"><i class="fa fa-check"></i><b>0.2</b> Philosophy</a></li>
+<li class="chapter" data-level="0.3" data-path="index.html"><a href="index.html#structure"><i class="fa fa-check"></i><b>0.3</b> Structure</a></li>
+<li class="chapter" data-level="0.4" data-path="index.html"><a href="index.html#conventions"><i class="fa fa-check"></i><b>0.4</b> Conventions</a></li>
+<li class="chapter" data-level="0.5" data-path="index.html"><a href="index.html#acknowledgments"><i class="fa fa-check"></i><b>0.5</b> Acknowledgments</a></li>
+</ul></li>
+<li class="part"><span><b>I Part I: A Canadian Introduction to GIS</b></span></li>
+<li class="chapter" data-level="1" data-path="geographic-information.html"><a href="geographic-information.html"><i class="fa fa-check"></i><b>1</b> Geographic Information</a></li>
+<li class="chapter" data-level="2" data-path="coordinate-reference-systems.html"><a href="coordinate-reference-systems.html"><i class="fa fa-check"></i><b>2</b> Coordinate Reference Systems</a></li>
+<li class="chapter" data-level="3" data-path="where-to-get-gis-data.html"><a href="where-to-get-gis-data.html"><i class="fa fa-check"></i><b>3</b> Where to get GIS Data</a><ul>
+<li class="chapter" data-level="3.1" data-path="where-to-get-gis-data.html"><a href="where-to-get-gis-data.html#gadm-global-administrative-areas"><i class="fa fa-check"></i><b>3.1</b> GADM: Global Administrative Areas</a></li>
+<li class="chapter" data-level="3.2" data-path="where-to-get-gis-data.html"><a href="where-to-get-gis-data.html#the-atlas-of-canada"><i class="fa fa-check"></i><b>3.2</b> The Atlas of Canada</a></li>
+<li class="chapter" data-level="3.3" data-path="where-to-get-gis-data.html"><a href="where-to-get-gis-data.html#canvec-data"><i class="fa fa-check"></i><b>3.3</b> CanVec Data</a></li>
+<li class="chapter" data-level="3.4" data-path="where-to-get-gis-data.html"><a href="where-to-get-gis-data.html#geogratis"><i class="fa fa-check"></i><b>3.4</b> GeoGratis</a></li>
+<li class="chapter" data-level="3.5" data-path="where-to-get-gis-data.html"><a href="where-to-get-gis-data.html#provincial-sources"><i class="fa fa-check"></i><b>3.5</b> Provincial Sources</a><ul>
+<li class="chapter" data-level="3.5.1" data-path="where-to-get-gis-data.html"><a href="where-to-get-gis-data.html#nova-scotia"><i class="fa fa-check"></i><b>3.5.1</b> Nova Scotia</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="creating-maps-in-qgis.html"><a href="creating-maps-in-qgis.html"><i class="fa fa-check"></i><b>4</b> Creating Maps in QGIS</a></li>
+<li class="part"><span><b>II Part II: Tutorials</b></span></li>
+<li class="chapter" data-level="5" data-path="tutorial-mapofcanada.html"><a href="tutorial-mapofcanada.html"><i class="fa fa-check"></i><b>5</b> A Map of Canada</a><ul>
+<li class="chapter" data-level="5.1" data-path="tutorial-mapofcanada.html"><a href="tutorial-mapofcanada.html#purpose"><i class="fa fa-check"></i><b>5.1</b> Purpose</a></li>
+<li class="chapter" data-level="5.2" data-path="tutorial-mapofcanada.html"><a href="tutorial-mapofcanada.html#tutorial"><i class="fa fa-check"></i><b>5.2</b> Tutorial</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="tutorial-vectorstyle.html"><a href="tutorial-vectorstyle.html"><i class="fa fa-check"></i><b>6</b> A Map of Wolfville</a><ul>
+<li class="chapter" data-level="6.1" data-path="tutorial-vectorstyle.html"><a href="tutorial-vectorstyle.html#purpose-1"><i class="fa fa-check"></i><b>6.1</b> Purpose</a></li>
+<li class="chapter" data-level="6.2" data-path="tutorial-vectorstyle.html"><a href="tutorial-vectorstyle.html#tutorial-1"><i class="fa fa-check"></i><b>6.2</b> Tutorial</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="tutorial-rasterstyle.html"><a href="tutorial-rasterstyle.html"><i class="fa fa-check"></i><b>7</b> A Map of Alta Lake</a><ul>
+<li class="chapter" data-level="7.1" data-path="tutorial-rasterstyle.html"><a href="tutorial-rasterstyle.html#purpose-2"><i class="fa fa-check"></i><b>7.1</b> Purpose</a></li>
+<li class="chapter" data-level="7.2" data-path="tutorial-rasterstyle.html"><a href="tutorial-rasterstyle.html#tutorial-2"><i class="fa fa-check"></i><b>7.2</b> Tutorial</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="tutorial-getdata.html"><a href="tutorial-getdata.html"><i class="fa fa-check"></i><b>8</b> Downloading GIS Data</a><ul>
+<li class="chapter" data-level="8.1" data-path="tutorial-getdata.html"><a href="tutorial-getdata.html#tutorial-3"><i class="fa fa-check"></i><b>8.1</b> Tutorial</a></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="tutorial-qms.html"><a href="tutorial-qms.html"><i class="fa fa-check"></i><b>9</b> The Quick Map Services Plugin</a><ul>
+<li class="chapter" data-level="9.1" data-path="tutorial-qms.html"><a href="tutorial-qms.html#purpose-3"><i class="fa fa-check"></i><b>9.1</b> Purpose</a></li>
+</ul></li>
+<li class="chapter" data-level="10" data-path="tutorial-dataprep.html"><a href="tutorial-dataprep.html"><i class="fa fa-check"></i><b>10</b> Preparing GIS Data</a><ul>
+<li class="chapter" data-level="10.1" data-path="tutorial-dataprep.html"><a href="tutorial-dataprep.html#purpose-4"><i class="fa fa-check"></i><b>10.1</b> Purpose</a></li>
+<li class="chapter" data-level="10.2" data-path="tutorial-dataprep.html"><a href="tutorial-dataprep.html#tutorial-4"><i class="fa fa-check"></i><b>10.2</b> Tutorial</a></li>
+</ul></li>
+<li class="chapter" data-level="11" data-path="tutorial-nssites.html"><a href="tutorial-nssites.html"><i class="fa fa-check"></i><b>11</b> Nova Scotia Study Sites Map</a><ul>
+<li class="chapter" data-level="11.1" data-path="tutorial-nssites.html"><a href="tutorial-nssites.html#purpose-5"><i class="fa fa-check"></i><b>11.1</b> Purpose</a></li>
+<li class="chapter" data-level="11.2" data-path="tutorial-nssites.html"><a href="tutorial-nssites.html#tutorial-5"><i class="fa fa-check"></i><b>11.2</b> Tutorial</a></li>
+</ul></li>
+<li class="chapter" data-level="12" data-path="tutorial-createedit.html"><a href="tutorial-createedit.html"><i class="fa fa-check"></i><b>12</b> Creating and Editing Features</a><ul>
+<li class="chapter" data-level="12.1" data-path="tutorial-createedit.html"><a href="tutorial-createedit.html#purpose-6"><i class="fa fa-check"></i><b>12.1</b> Purpose</a></li>
+<li class="chapter" data-level="12.2" data-path="tutorial-createedit.html"><a href="tutorial-createedit.html#tutorial-6"><i class="fa fa-check"></i><b>12.2</b> Tutorial</a></li>
+</ul></li>
+<li class="chapter" data-level="13" data-path="tutorial-processing.html"><a href="tutorial-processing.html"><i class="fa fa-check"></i><b>13</b> The Processing Toolbox</a><ul>
+<li class="chapter" data-level="13.1" data-path="tutorial-processing.html"><a href="tutorial-processing.html#purpose-7"><i class="fa fa-check"></i><b>13.1</b> Purpose</a></li>
+<li class="chapter" data-level="13.2" data-path="tutorial-processing.html"><a href="tutorial-processing.html#tutorial-7"><i class="fa fa-check"></i><b>13.2</b> Tutorial</a></li>
+</ul></li>
+<li class="appendix"><span><b>Appendicies</b></span></li>
+<li class="chapter" data-level="A" data-path="quick-reference.html"><a href="quick-reference.html"><i class="fa fa-check"></i><b>A</b> Quick Reference</a></li>
+<li class="chapter" data-level="B" data-path="projects.html"><a href="projects.html"><i class="fa fa-check"></i><b>B</b> Projects</a></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">A Canadian Introduction to GIS using QGIS</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="coordinate-reference-systems" class="section level1">
+<h1><span class="header-section-number">Chapter 2</span> Coordinate Reference Systems</h1>
+<p>TODO: write this section</p>
+
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="geographic-information.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="where-to-get-gis-data.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script>
+require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"google": false,
+"weibo": false,
+"instapper": false,
+"vk": false,
+"all": ["facebook", "google", "twitter", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/paleolimbot/qgis-intro/edit/master/01-Intro-to-GIS/02-Coordinate-Reference-Systems.Rmd",
+"text": "Edit"
+},
+"download": ["bookdown-demo.pdf"],
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
