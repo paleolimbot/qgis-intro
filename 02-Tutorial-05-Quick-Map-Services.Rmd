@@ -1,0 +1,60 @@
+
+# The Quick Map Services Plugin {#tutorial-qms}
+
+This tutorial will introduce you to another online resource: tiled maps. These are often not great for publishing maps, but can be very helpful when exploring data, and trying to make sure all data align. These services also occasionally provide satellite imagery. This functionality depends on the [Quick Map Services plugin](http://nextgis.com/blog/quickmapservices/), which we will have to install from the QGIS Plugins repository. To install the plugin, choose *Manage and Install Plugins...* from the *Plugins* menu.
+
+## Purpose
+
+* Demonstrate the installation use of the Quick Map Services plugin
+
+## Tutorial
+
+## Tutorial
+
+This tutorial will introduce you to another online resource: tiled maps. These are often not great for publishing maps, but can be very helpful when exploring data, and trying to make sure all data align. These services also occasionally provide satellite imagery.
+
+### Installing the QMS Plugin
+
+This functionality depends on the [Quick Map Services plugin](http://nextgis.com/blog/quickmapservices/), which we will have to install from the QGIS Plugins repository. To install the plugin, choose *Manage and Install Plugins...* from the *Plugins* menu.
+
+![Slide01](images/Tutorials/05-Quick-Map-Services/Slide01.jpg)
+
+Next type "quickmap" into the *Search* box, and click *Install plugin* to install. Close the Plugins dialog.
+
+![Slide02](images/Tutorials/05-Quick-Map-Services/Slide02.jpg)
+
+You may wish to add the full spectrum of tiled map sources, which you can do by opening the *Settings* dialog in the *QuickMapServices* menu.
+
+![Slide03](images/Tutorials/05-Quick-Map-Services/Slide03.jpg)
+
+Chose the *Contributed services* tab, then click *Get contributed pack*.
+
+![Slide04](images/Tutorials/05-Quick-Map-Services/Slide04.jpg)
+
+### Adding a QMS Tile Layer
+
+You can add any map service you would like, but we will add the *OSM Mapnik* style. Choose the service you would like to display, and click it to add it as a layer.
+
+![Slide05](images/Tutorials/05-Quick-Map-Services/Slide05.jpg)
+
+You can now zoom in, zoom out, and pan just like you would with a normal map. You can even use these layers in a print composer, although any text will often be too small to be legible in the final product.
+
+![Slide06](images/Tutorials/05-Quick-Map-Services/Slide06.jpg)
+
+### Adding a GADM Layer
+
+Several GADM files are included in your tutorial folder. Add the "CAN_adm1.shp" file to the layers window.
+
+![Slide07](images/Tutorials/05-Quick-Map-Services/Slide07.jpg)
+
+
+
+![Slide08](images/Tutorials/05-Quick-Map-Services/Slide08.jpg)
+
+Typically, these boundaries should be displayed with no fill, which you can arrange using the *Layer Properties* dialog.
+
+![Slide09](images/Tutorials/05-Quick-Map-Services/Slide09.jpg)
+
+A typical basemap using GADM looks something like the map below.
+
+![Slide10](images/Tutorials/05-Quick-Map-Services/Slide10.jpg)
