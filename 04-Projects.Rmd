@@ -3,3 +3,15 @@
 
 A list of suggested projects with links to the relevant data
 
+## Nova Scotia Study Sites
+
+Make a map of study sites using an Excel spreadsheet of study locations and GADM basemap data.
+
+## Halifax Demographics
+
+Use Canadian Census data to visualize demographic changes from 2006 to 2011.
+
+## CanVec Data
+
+Download CanVec data for your own study site and make a map using styles described in the Wolfville map tutorial.
+
