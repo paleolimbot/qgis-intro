@@ -38,7 +38,7 @@ TODO: write this section
 
 ### Course Data {#pre-course-data}
 
-This course uses a series of minimal examples to illustrate common tasks in QGIS. The data for these examples is available for download at the tutorial website (http://qgis-intro.paleolimbot.github.io/qgis-intro.zip). You should extract this ZIP file to location you can find easily before starting this course (I use the Desktop; you can always move the course folder somewhere else later).
+This course uses a series of minimal examples to illustrate common tasks in QGIS. The data for these examples is available for download at the tutorial website (https://github.com/paleolimbot/QGIS-Intro-Course/releases/download/AU2017-04-27/QGIS-Intro-AU2017.zip). You should extract this ZIP file to location you can find easily before starting this course (I use the Desktop; you can always move the course folder somewhere else later).
 
 
 ## Philosophy
