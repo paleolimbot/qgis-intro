@@ -61,4 +61,4 @@ TODO: write this section
 * EES, esp. Lynn Graves and Ian Spooner
 * Lita, Jon, & Karissa for TAing the class
 
-This course material was written using the [bookdown](https://bookdown.org/) package inside [RStudio](https://www.rstudio.com/). Pages were generated using [pandoc](http://pandoc.org/) and [gitbook](https://www.gitbook.com/). The source is [available on github](http://github.com/paleolimbot/).
+This course material was written using the [bookdown](https://bookdown.org/) package inside [RStudio](https://www.rstudio.com/). Pages were generated using [pandoc](http://pandoc.org/) and [gitbook](https://www.gitbook.com/). The source is [available on github](http://github.com/paleolimbot/qgis-intro).
