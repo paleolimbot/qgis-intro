@@ -11,7 +11,7 @@ The Atlas of Canada 1:1,000,000 scale dataset is particularly good for Canada-wi
 
 ## CanVec Data
 
-CanVec is the (Canadian) national vector dataset used to create NRCan Topographic Maps (1:50,000 scale). This data is ideal for local-scale maps, such as a map of Wolfville. A county-wide map is probably about as widespread as you will want to go using this dataset, since it is quite detailed and the files can be large. You can get this data from the [GeoGratis Data Extractor](http://geogratis.gc.ca/site/eng/extraction), along with low-resolution digital elevation models.
+CanVec is the (Canadian) national vector dataset used to create NRCan Topographic Maps (1:50,000 scale). This data is ideal for local-scale maps, such as a map of Wolfville. A county-wide map is probably about as widespread as you will want to go using this dataset, since it is quite detailed and the files can be large. You can get this data from the [GeoGratis Data Extractor](http://maps.canada.ca/czs/index-en.html), along with low-resolution digital elevation models.
 
 ## GeoGratis
 
