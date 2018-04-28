@@ -1,4 +1,4 @@
 
 # Coordinate Reference Systems
 
-TODO: write this section
+Eventually this section will be in book chapter form, but for now you can get this information as a [copy of the coordinate reference systems powerpoint](resources/ppt/02-coordinate-refs.pptx).

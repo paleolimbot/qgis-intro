@@ -9,8 +9,6 @@ This tutorial will introduce you to another online resource: tiled maps. These a
 
 ## Tutorial
 
-## Tutorial
-
 This tutorial will introduce you to another online resource: tiled maps. These are often not great for publishing maps, but can be very helpful when exploring data, and trying to make sure all data align. These services also occasionally provide satellite imagery.
 
 ### Installing the QMS Plugin
