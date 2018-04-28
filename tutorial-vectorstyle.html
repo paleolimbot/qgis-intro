@@ -25,7 +25,7 @@
 <meta name="author" content="Dewey W. Dunnington">
 
 
-<meta name="date" content="2018-04-27">
+<meta name="date" content="2018-04-28">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -670,13 +670,13 @@
 </div>
 <div id="the-assignment" class="section level2">
 <h2><span class="header-section-number">6.3</span> The Assignment</h2>
-<p>What we’ve just done is the “first pass” to make things look “about right”. You will always have to do this before you tweak all the colours and styles to be just how you would like. Over many years of creating maps with Canvec Data, I’ve settled on the following as my “best guess” for creating a good map. You’ll learn how to download CanVec data of your own in the <a href="06_Online_GIS_Data_Sources.html">next section</a>.</p>
+<p>What we’ve just done is the “first pass” to make things look “about right”. You will always have to do this before you tweak all the colours and styles to be just how you would like. Over many years of creating maps with Canvec Data, I’ve settled on the following as my “best guess” for creating a good map. You’ll learn how to download CanVec data of your own in the <a href="tutorial-getdata.html#tutorial-getdata">next section</a>.</p>
 <div id="water-polygons" class="section level3">
 <h3><span class="header-section-number">6.3.1</span> Water Polygons</h3>
-<p>Unless there’s something that looks funny, I usually go with the pre-defined “water” style with no outline. The details of this are as follows:</p>
+<p>Unless there’s something that looks funny, I usually go with the pre-defined “water” style with a thin (0.1 mm) outline. The details of this are as follows:</p>
 <ul>
 <li>Fill: #a5bfdd (hint: you can copy the text including the hash tag and choose <em>Paste Color</em> from the color chooser)</li>
-<li>Outline: usually none (outline style as <em>No Brush</em>)</li>
+<li>Outline: usually none (outline style as <em>No Brush</em>) or very thin, the same colour as the water (0.1 mm).</li>
 </ul>
 </div>
 <div id="stream-lines" class="section level3">
@@ -707,6 +707,7 @@
 <ul>
 <li>Shape: Square with no outline</li>
 <li>Size: 25 (in map units). You will have to have a project CRS that is in meters (most other than lat/lon are).</li>
+<li>Rotation according to the “orientation” or “rotation” attribute</li>
 </ul>
 </div>
 <div id="wetlands" class="section level3">
@@ -727,7 +728,7 @@
 </div>
 <div id="urban-areas" class="section level3">
 <h3><span class="header-section-number">6.3.9</span> Urban Areas</h3>
-<p>I almost never include this layer, but occasionally it helps. Since I never incluce it, I don’t have a special colour that I can suggest. Sorry!</p>
+<p>I almost never include this layer, but occasionally it helps. I usually use a fill colour of #fdff73 with no outline.</p>
 
 </div>
 </div>
