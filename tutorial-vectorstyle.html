@@ -120,14 +120,15 @@
 </ul></li>
 <li class="chapter" data-level="6.3" data-path="tutorial-vectorstyle.html"><a href="tutorial-vectorstyle.html#the-assignment"><i class="fa fa-check"></i><b>6.3</b> The Assignment</a><ul>
 <li class="chapter" data-level="6.3.1" data-path="tutorial-vectorstyle.html"><a href="tutorial-vectorstyle.html#water-polygons"><i class="fa fa-check"></i><b>6.3.1</b> Water Polygons</a></li>
-<li class="chapter" data-level="6.3.2" data-path="tutorial-vectorstyle.html"><a href="tutorial-vectorstyle.html#stream-lines"><i class="fa fa-check"></i><b>6.3.2</b> Stream Lines</a></li>
-<li class="chapter" data-level="6.3.3" data-path="tutorial-vectorstyle.html"><a href="tutorial-vectorstyle.html#contour-lines"><i class="fa fa-check"></i><b>6.3.3</b> Contour Lines</a></li>
-<li class="chapter" data-level="6.3.4" data-path="tutorial-vectorstyle.html"><a href="tutorial-vectorstyle.html#building-polygons"><i class="fa fa-check"></i><b>6.3.4</b> Building Polygons</a></li>
-<li class="chapter" data-level="6.3.5" data-path="tutorial-vectorstyle.html"><a href="tutorial-vectorstyle.html#building-points"><i class="fa fa-check"></i><b>6.3.5</b> Building Points</a></li>
-<li class="chapter" data-level="6.3.6" data-path="tutorial-vectorstyle.html"><a href="tutorial-vectorstyle.html#wetlands"><i class="fa fa-check"></i><b>6.3.6</b> Wetlands</a></li>
-<li class="chapter" data-level="6.3.7" data-path="tutorial-vectorstyle.html"><a href="tutorial-vectorstyle.html#roads"><i class="fa fa-check"></i><b>6.3.7</b> Roads</a></li>
-<li class="chapter" data-level="6.3.8" data-path="tutorial-vectorstyle.html"><a href="tutorial-vectorstyle.html#railways"><i class="fa fa-check"></i><b>6.3.8</b> Railways</a></li>
-<li class="chapter" data-level="6.3.9" data-path="tutorial-vectorstyle.html"><a href="tutorial-vectorstyle.html#urban-areas"><i class="fa fa-check"></i><b>6.3.9</b> Urban Areas</a></li>
+<li class="chapter" data-level="6.3.2" data-path="tutorial-vectorstyle.html"><a href="tutorial-vectorstyle.html#forest"><i class="fa fa-check"></i><b>6.3.2</b> Forest</a></li>
+<li class="chapter" data-level="6.3.3" data-path="tutorial-vectorstyle.html"><a href="tutorial-vectorstyle.html#stream-lines"><i class="fa fa-check"></i><b>6.3.3</b> Stream Lines</a></li>
+<li class="chapter" data-level="6.3.4" data-path="tutorial-vectorstyle.html"><a href="tutorial-vectorstyle.html#contour-lines"><i class="fa fa-check"></i><b>6.3.4</b> Contour Lines</a></li>
+<li class="chapter" data-level="6.3.5" data-path="tutorial-vectorstyle.html"><a href="tutorial-vectorstyle.html#building-polygons"><i class="fa fa-check"></i><b>6.3.5</b> Building Polygons</a></li>
+<li class="chapter" data-level="6.3.6" data-path="tutorial-vectorstyle.html"><a href="tutorial-vectorstyle.html#building-points"><i class="fa fa-check"></i><b>6.3.6</b> Building Points</a></li>
+<li class="chapter" data-level="6.3.7" data-path="tutorial-vectorstyle.html"><a href="tutorial-vectorstyle.html#wetlands"><i class="fa fa-check"></i><b>6.3.7</b> Wetlands</a></li>
+<li class="chapter" data-level="6.3.8" data-path="tutorial-vectorstyle.html"><a href="tutorial-vectorstyle.html#roads"><i class="fa fa-check"></i><b>6.3.8</b> Roads</a></li>
+<li class="chapter" data-level="6.3.9" data-path="tutorial-vectorstyle.html"><a href="tutorial-vectorstyle.html#railways"><i class="fa fa-check"></i><b>6.3.9</b> Railways</a></li>
+<li class="chapter" data-level="6.3.10" data-path="tutorial-vectorstyle.html"><a href="tutorial-vectorstyle.html#urban-areas"><i class="fa fa-check"></i><b>6.3.10</b> Urban Areas</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="7" data-path="tutorial-getdata.html"><a href="tutorial-getdata.html"><i class="fa fa-check"></i><b>7</b> Downloading GIS Data</a><ul>
@@ -679,15 +680,19 @@
 <li>Outline: usually none (outline style as <em>No Brush</em>) or very thin, the same colour as the water (0.1 mm).</li>
 </ul>
 </div>
+<div id="forest" class="section level3">
+<h3><span class="header-section-number">6.3.2</span> Forest</h3>
+<p>Forest polygons should be a light green fill (#d0eadd), with no outline or a very thin outline (0.1 mm) with the same colour as the fill.</p>
+</div>
 <div id="stream-lines" class="section level3">
-<h3><span class="header-section-number">6.3.2</span> Stream Lines</h3>
+<h3><span class="header-section-number">6.3.3</span> Stream Lines</h3>
 <ul>
 <li>Colour: The same as the fill colour for the water polygons (#a5bfdd).</li>
 <li>Size: 0.5 mm</li>
 </ul>
 </div>
 <div id="contour-lines" class="section level3">
-<h3><span class="header-section-number">6.3.3</span> Contour Lines</h3>
+<h3><span class="header-section-number">6.3.4</span> Contour Lines</h3>
 <ul>
 <li>Rule-based style, with the rule for major lines as <code>(&quot;ELEVATION&quot; % 50) = 0</code>.</li>
 <li>Colour: #bb8c6e</li>
@@ -696,14 +701,14 @@
 </ul>
 </div>
 <div id="building-polygons" class="section level3">
-<h3><span class="header-section-number">6.3.4</span> Building Polygons</h3>
+<h3><span class="header-section-number">6.3.5</span> Building Polygons</h3>
 <ul>
 <li>Colour: black</li>
 <li>Outline: None</li>
 </ul>
 </div>
 <div id="building-points" class="section level3">
-<h3><span class="header-section-number">6.3.5</span> Building Points</h3>
+<h3><span class="header-section-number">6.3.6</span> Building Points</h3>
 <ul>
 <li>Shape: Square with no outline</li>
 <li>Size: 25 (in map units). You will have to have a project CRS that is in meters (most other than lat/lon are).</li>
@@ -711,7 +716,7 @@
 </ul>
 </div>
 <div id="wetlands" class="section level3">
-<h3><span class="header-section-number">6.3.6</span> Wetlands</h3>
+<h3><span class="header-section-number">6.3.7</span> Wetlands</h3>
 <p>There were no wetland (or “saturated soils”, as NRCan calls them) layers in this dataset, but they are available.</p>
 <ul>
 <li>Fill: #d0eadd (this is a light green) with a simple fill layer above it with colour #a5bfdd and <em>Fill style</em> “Dense 4”.</li>
@@ -719,15 +724,15 @@
 </ul>
 </div>
 <div id="roads" class="section level3">
-<h3><span class="header-section-number">6.3.7</span> Roads</h3>
+<h3><span class="header-section-number">6.3.8</span> Roads</h3>
 <p>Roads are tricky, because to properly render them as a <em>Categorized</em> style where freeways are a specific colour requires some advanced QGIS style magic. Usually you want them to be black with a width of 0.5 mm or so. If you really want to try a classfied symbology, you can classify them by the <code>ROADCLASS</code> field. You will have to enable <em>Symbol levels</em> for the built-in road symbols to function properly.</p>
 </div>
 <div id="railways" class="section level3">
-<h3><span class="header-section-number">6.3.8</span> Railways</h3>
+<h3><span class="header-section-number">6.3.9</span> Railways</h3>
 <p>The railway symbol I always use is the one I’ve described here, usually changing the size of the crossways symbol and the spacing of the ticks to suit the final project.</p>
 </div>
 <div id="urban-areas" class="section level3">
-<h3><span class="header-section-number">6.3.9</span> Urban Areas</h3>
+<h3><span class="header-section-number">6.3.10</span> Urban Areas</h3>
 <p>I almost never include this layer, but occasionally it helps. I usually use a fill colour of #fdff73 with no outline.</p>
 
 </div>
