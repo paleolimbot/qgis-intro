@@ -32,8 +32,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   
   
-<link rel="prev" href="tutorial-processing.html">
-<link rel="next" href="projects.html">
+<link rel="prev" href="references.html">
+
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -216,18 +216,62 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="quick-reference" class="section level1">
-<h1><span class="header-section-number">A</span> Quick Reference</h1>
-<p>This set of tutorials will summarise specific tasks like adding a layer or removing a layer.</p>
+<div id="introduction" class="section level1 unnumbered">
+<h1>Introduction</h1>
+<div id="prerequisites" class="section level2">
+<h2><span class="header-section-number">B.4</span> Prerequisites</h2>
+<p>This course uses <a href="http://www.qgis.org">QGIS</a> and Canadian examples to give a brief introduction to geographic information systems. QGIS is an open-source GIS platform available for all major platforms, including Windows, Linux, and Mac OSX. This course was written using QGIS 2.18.2 for Mac OSX, however it is expected that this tutorial is valid from QGIS 2.14 up to future versions of QGIS. To use this course, you will need to install QGIS and download the course data.</p>
+<div id="pre-qgis-install" class="section level3">
+<h3><span class="header-section-number">B.4.1</span> Installing QGIS</h3>
+<p>QGIS downloads are available from the QGIS download page (<a href="https://qgis.org/en/site/forusers/download.html" class="uri">https://qgis.org/en/site/forusers/download.html</a>). Instructions on the website are fairly complete, but the process is slightly different based on platform. For this tutorial, you will need QGIS Version 2.18 LTR (not 3.0, which may work for some of the examples but is still in the early phase of adoption).</p>
+<div id="windows" class="section level4">
+<h4><span class="header-section-number">B.4.1.1</span> Windows</h4>
+<p>Windows users should use the “QGIS Standalone Installer 64 bit” download, and when opening QGIS, use the <em>QGIS with GRASS</em> shortcut on the desktop.</p>
+</div>
+<div id="macosx" class="section level4">
+<h4><span class="header-section-number">B.4.1.2</span> MacOSX</h4>
+<p>Mac users should download the .dmg file, open it, and install the packages in the order that they are indicated (they are numbered 01, 02, etc.). <strong>In order to install the packages, you will need to right-click on each package and choose <em>Open</em>, then choose <em>Continue</em> to install the package</strong>.</p>
+</div>
+<div id="linux" class="section level4">
+<h4><span class="header-section-number">B.4.1.3</span> Linux</h4>
+<p>Occasionally, the distribution (e.g., Ubuntu) will have a version of QGIS in its software repository. While this version will work for many of the modules in this tutorial, I highly reccomend using the “Release with ubuntugis dependencies” repository to install QGIS, SAGA, and GRASS with Ubuntu. You will also need to add the QGIS certificate to your keychain, which you can do using:</p>
+<pre><code>sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-key CAEB3DC3BDF7FB45</code></pre>
+<p>To install QGIS and dependencies, run:</p>
+<pre><code>sudo apt-get update
+sudo apt-get install qgis python-qgis qgis-plugin-grass</code></pre>
+</div>
+</div>
+<div id="pre-course-data" class="section level3">
+<h3><span class="header-section-number">B.4.2</span> Course Data</h3>
+<p>This course uses a series of minimal examples to illustrate common tasks in QGIS. The data for these examples is available for download at the tutorial website (<a href="https://github.com/paleolimbot/QGIS-Intro-Course/releases/download/AU2017-04-27/QGIS-Intro-AU2017.zip" class="uri">https://github.com/paleolimbot/QGIS-Intro-Course/releases/download/AU2017-04-27/QGIS-Intro-AU2017.zip</a>). You should extract this ZIP file to location you can find easily before starting this course (I use the Desktop; you can always move the course folder somewhere else later).</p>
+</div>
+</div>
+<div id="philosophy" class="section level2">
+<h2><span class="header-section-number">B.5</span> Philosophy</h2>
+<p>There are many excellent reference guides to QGIS, and much high-quality coures material available for teaching GIS and learning QGIS software. This course is designed to be a lightweight introduction to QGIS software to build a basic proficiency in GIS and GIS software, using Canadian examples and data to illustrate key concepts. This material is designed for a two-day short-course format.</p>
+</div>
+<div id="structure" class="section level2">
+<h2><span class="header-section-number">B.6</span> Structure</h2>
+<p>The course is divided into three parts. The first is a textual introduction to GIS and QGIS, the second is a set of tutorials that will walk you through the creation of several common types of maps. Finally, there is a quick reference section that provides short tutorials for common tasks (e.g., adding a vector layer).</p>
+</div>
+<div id="conventions" class="section level2">
+<h2><span class="header-section-number">B.7</span> Conventions</h2>
+<p>Throughout this course we will use <strong>bold</strong> text to refer to terms that are in the glossary (like <strong>GIS</strong> or <strong>vector layer</strong>), <em>italic text</em> to refer to QGIS menu options or window titles (such as the <em>Style</em> tab or <em>Layers Panel</em>), “quotations” to refer to layer names (such as “buildings_poly”), and <code>preformatted text</code> to refer to filenames (such as <code>02 Map of Canada/Canada-WGS84.shp</code>).</p>
+</div>
+<div id="acknowledgments" class="section level2">
+<h2><span class="header-section-number">B.8</span> Acknowledgments</h2>
+<p>This course would not have been possible without the <a href="https://ees.acadiau.ca/home.html">Department of Earth &amp; Environmental Science at Acadia University</a>, which has run the course at least once per year since 2014. In particular this course would not have been possible without Lynn Graves, Ian Spooner, Christa Pufhal, Jonathan Shute, Lita O’Halloran, and Karissa Reischke.</p>
+<p>This course material was written using the <a href="https://bookdown.org/">bookdown</a> package inside <a href="https://www.rstudio.com/">RStudio</a>. Pages were generated using <a href="http://pandoc.org/">pandoc</a> and <a href="https://www.gitbook.com/">gitbook</a>. The source is <a href="http://github.com/paleolimbot/qgis-intro">available on github</a>.</p>
 
+</div>
 </div>
             </section>
 
           </div>
         </div>
       </div>
-<a href="tutorial-processing.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="projects.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="references.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -257,7 +301,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/paleolimbot/qgis-intro/edit/master/./03-Quick-Reference.Rmd",
+"link": "https://github.com/paleolimbot/qgis-intro/edit/master/./index.Rmd",
 "text": "Edit"
 },
 "download": null,
