@@ -1,8 +1,6 @@
 
 # Where to get GIS Data {#intro-data-sources}
 
-TODO: write this section
-
 ## GADM: Global Administrative Areas
 
 The [GADM database](http://www.gadm.org/) is a collection of administrative boundaries. You can [download the shapefiles by country](http://www.gadm.org/country) or the [whole world](http://www.gadm.org/version2) if you have a lot of time and a lot of disk space. Several Canadian files are included in this tutorial. These files are for personal or academic use only. Level 0 is countries, level 1 is provices/states, and level 2 is counties.
