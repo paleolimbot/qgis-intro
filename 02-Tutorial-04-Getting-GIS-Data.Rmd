@@ -5,7 +5,5 @@ So far we have used data only from the tutorials folder, which I have nicely man
 
 ## Tutorial
 
-* Suggest a number of online sources for high-quality Canadian geographic data
-* Demonstrate how to obtain basemap data from the Natural Resources Canada Geospatial Data Extractor
-
-TODO: write this tutorial
+* Suggest [a number of online sources for high-quality Canadian geographic data](#intro-data-sources)
+* Demonstrate how to obtain basemap data from the [Natural Resources Canada Geospatial Data Extractor](http://maps.canada.ca/czs/index-en.html).

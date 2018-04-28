@@ -3,6 +3,6 @@
 
 # Quick Reference
 
-This set of tutorials will summarise specific tasks like adding a layer or removing a layer.
+This set of tutorials will summarise specific tasks like adding a layer or removing a layer (work in progress).
 
 

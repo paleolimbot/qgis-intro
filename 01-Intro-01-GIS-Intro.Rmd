@@ -1,8 +1,6 @@
 
 # (PART) Part I: A Canadian Introduction to GIS {-}
 
-TODO: write intro to part 1
-
 # Geographic Information
 
-TODO: write this section
+Eventually this section will be in book chapter form, but for now you can get this information as a [copy of the introductory powerpoint](resources/ppt/01-gis-intro.pptx).

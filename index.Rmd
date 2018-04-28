@@ -12,6 +12,19 @@ github-repo: paleolimbot/qgis-intro
 description: "This course uses QGIS and Canadian examples to give a brief introduction to geographic information systems. QGIS is an open-source GIS platform available for all major platforms, including Windows, Linux, and Mac OSX."
 ---
 
+```{r setup, include=FALSE}
+
+# zip the "resources" folder to qgis-intro-resources.zip
+ds_stores <- list.files("resources", 
+                        pattern = ".DS_Store", 
+                        recursive = TRUE, 
+                        all.files = TRUE, 
+                        full.names = TRUE)
+unlink(ds_stores)
+unlink("qgis-intro-resources.zip")
+system("zip -r qgis-intro-resources.zip resources", intern = TRUE)
+```
+
 # Introduction {-}
 
 ## Prerequisites
@@ -47,7 +60,7 @@ sudo apt-get install qgis python-qgis qgis-plugin-grass
 
 ### Course Data {#pre-course-data}
 
-This course uses a series of minimal examples to illustrate common tasks in QGIS. The data for these examples is available for download at the tutorial website (https://github.com/paleolimbot/QGIS-Intro-Course/releases/download/AU2017-04-27/QGIS-Intro-AU2017.zip). You should extract this ZIP file to location you can find easily before starting this course (I use the Desktop; you can always move the course folder somewhere else later).
+This course uses a series of minimal examples to illustrate common tasks in QGIS. The data for these examples is [available for download at the tutorial website](qgis-intro-resources.zip). You should extract this ZIP file to location you can find easily before starting this course (I use the Desktop; you can always move the course folder somewhere else later).
 
 ## Philosophy
 
