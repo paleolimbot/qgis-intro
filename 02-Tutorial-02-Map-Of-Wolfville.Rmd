@@ -363,14 +363,18 @@ Your map should now look like this.
 
 ## The Assignment
 
-What we've just done is the "first pass" to make things look "about right". You will always have to do this before you tweak all the colours and styles to be just how you would like. Over many years of creating maps with Canvec Data, I've settled on the following as my "best guess" for creating a good map. You'll learn how to download CanVec data of your own in the [next section](06_Online_GIS_Data_Sources.html).
+What we've just done is the "first pass" to make things look "about right". You will always have to do this before you tweak all the colours and styles to be just how you would like. Over many years of creating maps with Canvec Data, I've settled on the following as my "best guess" for creating a good map. You'll learn how to download CanVec data of your own in the [next section](#tutorial-getdata).
 
 ### Water Polygons
 
-Unless there's something that looks funny, I usually go with the pre-defined "water" style with no outline. The details of this are as follows:
+Unless there's something that looks funny, I usually go with the pre-defined "water" style with a thin (0.1 mm) outline. The details of this are as follows:
 
 * Fill: #a5bfdd (hint: you can copy the text including the hash tag and choose *Paste Color* from the color chooser)
-* Outline: usually none (outline style as *No Brush*)
+* Outline: usually none (outline style as *No Brush*) or very thin, the same colour as the water (0.1 mm).
+
+### Forest
+
+Forest polygons should be a light green fill (#d0eadd), with no outline or a very thin outline (0.1 mm) with the same colour as the fill.
 
 ### Stream Lines
 
@@ -393,6 +397,7 @@ Unless there's something that looks funny, I usually go with the pre-defined "wa
 
 * Shape: Square with no outline
 * Size: 25 (in map units). You will have to have a project CRS that is in meters (most other than lat/lon are).
+* Rotation according to the "orientation" or "rotation" attribute
 
 ### Wetlands
 
@@ -411,4 +416,4 @@ The railway symbol I always use is the one I've described here, usually changing
 
 ### Urban Areas
 
-I almost never include this layer, but occasionally it helps. Since I never incluce it, I don't have a special colour that I can suggest. Sorry!
+I almost never include this layer, but occasionally it helps. I usually use a fill colour of #fdff73 with no outline.
